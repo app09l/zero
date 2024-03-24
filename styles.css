@@ -1,0 +1,14 @@
+.menu-item {
+    -fx-font-family: 'Persona5MenuFontPrototype-Regular.ttf', sans-serif;
+    -fx-font-size: 36px;
+    -fx-fill: white;
+}
+
+.menu-item:hover {
+    -fx-fill: #FFD700; /* Change color on hover */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0); /* Add drop shadow */
+}
+
+.menu-background {
+    -fx-background-color: #202020; /* Dark background color */
+}
